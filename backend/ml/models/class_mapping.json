@@ -1,0 +1,83 @@
+{
+  "classes": [
+    "Apple___Apple_scab",
+    "Apple___Black_rot",
+    "Apple___healthy",
+    "Corn_(maize)___Common_rust_",
+    "Corn_(maize)___Northern_Leaf_Blight",
+    "Corn_(maize)___healthy",
+    "Grape___Black_rot",
+    "Grape___healthy",
+    "Pepper,_bell___Bacterial_spot",
+    "Pepper,_bell___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy",
+    "Tomato___Bacterial_spot",
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Tomato___Leaf_Mold",
+    "Tomato___healthy"
+  ],
+  "class_to_idx": {
+    "Apple___Apple_scab": 0,
+    "Apple___Black_rot": 1,
+    "Apple___healthy": 2,
+    "Corn_(maize)___Common_rust_": 3,
+    "Corn_(maize)___Northern_Leaf_Blight": 4,
+    "Corn_(maize)___healthy": 5,
+    "Grape___Black_rot": 6,
+    "Grape___healthy": 7,
+    "Pepper,_bell___Bacterial_spot": 8,
+    "Pepper,_bell___healthy": 9,
+    "Potato___Early_blight": 10,
+    "Potato___Late_blight": 11,
+    "Potato___healthy": 12,
+    "Tomato___Bacterial_spot": 13,
+    "Tomato___Early_blight": 14,
+    "Tomato___Late_blight": 15,
+    "Tomato___Leaf_Mold": 16,
+    "Tomato___healthy": 17
+  },
+  "idx_to_class": {
+    "0": "Apple___Apple_scab",
+    "1": "Apple___Black_rot",
+    "2": "Apple___healthy",
+    "3": "Corn_(maize)___Common_rust_",
+    "4": "Corn_(maize)___Northern_Leaf_Blight",
+    "5": "Corn_(maize)___healthy",
+    "6": "Grape___Black_rot",
+    "7": "Grape___healthy",
+    "8": "Pepper,_bell___Bacterial_spot",
+    "9": "Pepper,_bell___healthy",
+    "10": "Potato___Early_blight",
+    "11": "Potato___Late_blight",
+    "12": "Potato___healthy",
+    "13": "Tomato___Bacterial_spot",
+    "14": "Tomato___Early_blight",
+    "15": "Tomato___Late_blight",
+    "16": "Tomato___Leaf_Mold",
+    "17": "Tomato___healthy"
+  },
+  "num_classes": 18,
+  "architecture": "ResNet18",
+  "input_size": [
+    224,
+    224
+  ],
+  "normalization": {
+    "mean": [
+      0.48500001430511475,
+      0.4560000002384186,
+      0.4059999883174896
+    ],
+    "std": [
+      0.2290000021457672,
+      0.2240000069141388,
+      0.22499999403953552
+    ]
+  },
+  "dataset_source": "PlantVillage (Hughes & Salathe, 2015; Mohanty et al., 2016)",
+  "license": "Creative Commons Attribution-ShareAlike 3.0 (CC BY-SA 3.0)",
+  "random_seed": 42
+}

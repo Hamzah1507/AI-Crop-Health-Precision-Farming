@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#166534" />
+      <stop offset="100%" stop-color="#0f3d21" />
+    </linearGradient>
+    <linearGradient id="primaryLeaf" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22c55e" />
+      <stop offset="100%" stop-color="#4ade80" />
+    </linearGradient>
+    <linearGradient id="secondaryLeaf" x1="100%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#4ade80" />
+      <stop offset="100%" stop-color="#86efac" />
+    </linearGradient>
+  </defs>
+  <!-- Background Badge: ensures high contrast and clarity on both dark and light browser tab bars -->
+  <rect width="32" height="32" rx="7.5" fill="url(#bgGrad)" />
+  
+  <!-- Right / Main Crop Leaf -->
+  <path d="M16 26 C16 19 19 12 26 8 C26 15 23 23 16 26 Z" fill="url(#primaryLeaf)" />
+  
+  <!-- Left Sprout Leaf (Agricultural shoot) -->
+  <path d="M16 21 C15 16 12 12 6 12 C6 18 10 22 16 21 Z" fill="url(#secondaryLeaf)" />
+  
+  <!-- Precision Agriculture Stem -->
+  <path d="M16 26 L16 11" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" />
+  
+  <!-- Precision AI Agriculture Seed / Pulse Node -->
+  <circle cx="16" cy="9.5" r="1.5" fill="#ffffff" />
+</svg>

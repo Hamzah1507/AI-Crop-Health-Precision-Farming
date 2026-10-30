@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+python-dotenv
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+pydantic[email-validator]
+pydantic-settings
+httpx
+alembic
+numpy>=2
+opencv-python-headless
